@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fitHeight="600.0" fitWidth="478.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="LEFT" GridPane.valignment="TOP">
+               <image>
+                  <Image url="@assets/images/freesolo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#ff4081" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-border-radius: 50PX;" text="M" wrappingWidth="50.82366943359375" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets top="70.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="56.0" />
+               </font>
+            </Text>
+            <JFXTextField focusColor="#ff4081" labelFloat="true" prefHeight="25.0" prefWidth="405.0" promptText="FIRST NAME" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" right="80.0" top="180.0" />
+               </GridPane.margin>
+            </JFXTextField>
+            <JFXTextField focusColor="#ff4081" labelFloat="true" promptText="LAST NAME" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" right="80.0" top="230.0" />
+               </GridPane.margin>
+            </JFXTextField>
+            <JFXTextField focusColor="#ff4081" labelFloat="true" promptText="E-MAIL" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets bottom="20.0" left="80.0" right="80.0" top="280.0" />
+               </GridPane.margin>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#ff4081" labelFloat="true" promptText="PASSWORD" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" right="80.0" top="330.0" />
+               </GridPane.margin>
+            </JFXPasswordField>
+            <JFXPasswordField focusColor="#ff4081" labelFloat="true" promptText="REPEAT PASSWORD" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" right="80.0" top="380.0" />
+               </GridPane.margin>
+            </JFXPasswordField>
+            <JFXToggleButton prefHeight="58.0" prefWidth="154.0" text="UNDER 18 ?" toggleColor="#ff4081" GridPane.columnIndex="1" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets left="80.0" top="500.0" />
+               </GridPane.margin>
+            </JFXToggleButton>
+            <JFXButton prefHeight="27.0" prefWidth="155.0" ripplerFill="#785448" style="-fx-background-color: WHITE; -fx-background-radius: 10PX;" text="GET STARTED" textFill="#785448" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.valignment="TOP">
+               <GridPane.margin>
+                  <Insets bottom="55.0" right="80.0" top="520.0" />
+               </GridPane.margin>
+            </JFXButton>
+            <Pane opacity="0.39" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #795548;" GridPane.valignment="BOTTOM" />
+            <JFXButton prefHeight="27.0" prefWidth="103.0" ripplerFill="#795548" style="-fx-background-color: WHITE; -fx-background-radius: 10px;" text="ABAUT US" textFill="#785448" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="140.0" />
+               </GridPane.margin>
+            </JFXButton>
+            <JFXButton style="-fx-border-color: white; -fx-background-radius: 10 px;" text="SIGNING" textFill="WHITE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="280.0" />
+               </GridPane.margin>
+            </JFXButton>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Your Own Account" wrappingWidth="226.08158672025547" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="35.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets bottom="100.0" />
+               </GridPane.margin>
+            </Text>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
